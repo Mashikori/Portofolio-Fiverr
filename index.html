@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ganda Fahrial Adnan - Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      animation: slideDown 1s ease-in-out;
+    }
+
+    p {
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 5px 0;
+      color: #e2e8f0;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes slideDown {
+      from {transform: translateY(-30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Hello, I’m Ganda Fahrial Adnan</h1>
+    <p>Beginner Developer from Indonesia 🇮🇩</p>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am learning HTML and Python. I like building small projects and improving my coding skills.</p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML (Beginner)</li>
+        <li>Python (Beginner)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>My first HTML portfolio</li>
+        <li>Basic Python practice projects</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:gandafahrialadnan@gmail.com">gandafahrialadnan@gmail.com</a></p>
+      <p>Location: Indonesia</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
